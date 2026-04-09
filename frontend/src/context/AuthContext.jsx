@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useState, useEffect } from "react";
 import axios from "axios";
-
+axios.defaults.baseURL = "https://flight-booking-kxfj.onrender.com";
 const AuthContext = createContext();
 
 export const AuthProvider = ({ children }) => {
